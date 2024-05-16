@@ -1,0 +1,20 @@
+nav{
+    padding: 0 120px;
+}
+.navbar-brand {
+    color: #dc3ef9;
+    font-weight: bold;
+}
+ul li a:hover, ul li a:focus, ul li a:active{
+    color: #dc3ef9;
+}
+@media (max-width: 749px){
+    nav{
+        padding: 0;
+    }
+}
+@media (min-width: 750px) {
+    nav{
+        padding: 0px 86px;
+    }
+}
